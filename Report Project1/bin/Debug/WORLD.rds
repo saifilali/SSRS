@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RptDataSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="WORLD">
+  <ConnectionProperties>
+    <Extension>SQL</Extension>
+    <ConnectString>Data Source=DESKTOP-QH77S2O\SQL2016;Initial Catalog=World</ConnectString>
+    <IntegratedSecurity>true</IntegratedSecurity>
+    <Prompt>Specify a user name and password for data source WORLD</Prompt>
+  </ConnectionProperties>
+  <DataSourceID>0a6b03e2-e070-4fa8-9f19-3dd4876fe287</DataSourceID>
+</RptDataSource>
