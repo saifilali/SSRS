@@ -8,11 +8,11 @@
     <OverwriteDataSources>False</OverwriteDataSources>
     <TargetServerVersion>SSRS2016</TargetServerVersion>
     <Platform>Win32</Platform>
-    <TargetReportFolder>Report Project1</TargetReportFolder>
+    <TargetReportFolder>/Reports_SQL2016/browse/</TargetReportFolder>
     <TargetDatasetFolder>Datasets</TargetDatasetFolder>
     <TargetDatasourceFolder>Data Sources</TargetDatasourceFolder>
     <TargetReportPartFolder>Report Parts</TargetReportPartFolder>
-    <TargetServerURL>http://localhost/reportserver</TargetServerURL>
+    <TargetServerURL>http://desktop-qh77s2o/ReportServer_SQL2016</TargetServerURL>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'DebugLocal' ">
     <FullPath>DebugLocal</FullPath>
@@ -61,6 +61,7 @@
     <Report Include="cars.rdl" />
     <Report Include="cascading report.rdl" />
     <Report Include="Conditional Formatting.rdl" />
+    <Report Include="Continent1.rdl" />
     <Report Include="Continents.rdl" />
     <Report Include="countries.rdl" />
     <Report Include="FORMATTING.rdl" />
@@ -71,6 +72,7 @@
     <Report Include="population.rdl" />
     <Report Include="PRODUCTS2.rdl" />
     <Report Include="sales.rdl" />
+    <Report Include="Sales1.rdl" />
     <Report Include="Subreport.rdl" />
     <Report Include="Template.rdl" />
     <Report Include="WORLD REPORT.rdl" />
